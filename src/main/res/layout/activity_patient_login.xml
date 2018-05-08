@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.physiotrak.PatientLogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/linearLayout">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/madhawa_dias"
+            android:maxHeight="200dp"
+            android:maxWidth="200dp"
+            app:srcCompat="@drawable/madhawacvround" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="@string/madhawa_dias"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="47dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/patient"
+        android:maxHeight="150dp"
+        android:maxWidth="150dp"
+        android:onClick="exercises"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/exerciseicon" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/messages"
+        android:maxHeight="150dp"
+        android:maxWidth="150dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/messages" />
+
+</RelativeLayout>

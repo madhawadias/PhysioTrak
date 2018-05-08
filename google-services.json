@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "203388585843",
+    "firebase_url": "https://physiotrakalpha.firebaseio.com",
+    "project_id": "physiotrakalpha",
+    "storage_bucket": "physiotrakalpha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203388585843:android:98ea0975899afbdf",
+        "android_client_info": {
+          "package_name": "com.example.physiotrak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203388585843-9aisuqij97m72ngko2ndhtilvni5jll2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.physiotrak",
+            "certificate_hash": "093cdd88e00e8250a36e83e5f3d51a169692e269"
+          }
+        },
+        {
+          "client_id": "203388585843-8m7l7av4tuaiqv6kqa7oge1648d9e3dt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwvlTuziDV3gXA6-TJD-yllLumz2vEjLY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203388585843-8m7l7av4tuaiqv6kqa7oge1648d9e3dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
